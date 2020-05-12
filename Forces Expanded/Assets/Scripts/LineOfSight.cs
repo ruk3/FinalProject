@@ -46,7 +46,7 @@ public class LineOfSight : MonoBehaviour
 
         //Get angle between forward and look direction
         float Angle = Vector3.Angle(EyePoint.forward, DirToTarget);
-        
+
         //Are we within field of view?
         if (Angle <= FieldOfView)
             return true;
