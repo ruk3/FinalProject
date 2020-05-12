@@ -5,7 +5,7 @@ using UnityEngine;
 public class LineOfSight : MonoBehaviour
 {
     //How sensitive should we be to sight
-    public enum SightSensitivity { STRICT, LOOSE };
+    public enum SightSensitivity {STRICT, LOOSE};
 
     //Sight sensitivity
     public SightSensitivity Sensitivity = SightSensitivity.STRICT;
@@ -31,12 +31,12 @@ public class LineOfSight : MonoBehaviour
     //Reference to last know object sighting, if any
     public Vector3 LastKnownLocation = Vector3.zero;
 
-    void Awake()
+    void Start()
     {
         ThisTransform = GetComponent<Transform>();
         ThisCollider = GetComponent<SphereCollider>();
         LastKnownLocation = ThisTransform.position;
-        Target = GameObject.FindGameObjectWithTag("Seeker").GetComponent<Transform>();
+        Target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
     bool InFOV()
@@ -62,7 +62,7 @@ public class LineOfSight : MonoBehaviour
         if (Physics.Raycast(EyePoint.position, (Target.position - EyePoint.position).normalized, out Info, ThisCollider.radius))
         {
             //If player, then can see player
-            if (Info.transform.CompareTag("Seeker"))
+            if (Info.transform.CompareTag("Player"))
                 return true;
         }
 
@@ -92,7 +92,7 @@ public class LineOfSight : MonoBehaviour
     //------------------------------------------
     void OnTriggerExit(Collider Other)
     {
-        if (!Other.CompareTag("Seeker")) return;
+        if (!Other.CompareTag("Player")) return;
 
         CanSeeTarget = false;
     }
