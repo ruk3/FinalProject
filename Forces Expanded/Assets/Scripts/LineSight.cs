@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 //------------------------------------------
 public class LineSight : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class LineSight : MonoBehaviour
 	public SightSensitivity Sensitity = SightSensitivity.STRICT;
 
 	//Can we see target
-	public bool CanSeeTarget = false;
+	public bool CanSeeAgent = false;
 
 	//FOV
 	public float FieldOfView = 45f;
@@ -58,8 +59,11 @@ public class LineSight : MonoBehaviour
 	bool ClearLineofSight()
 	{
 		RaycastHit Info;
-	
-		if(Physics.Raycast(EyePoint.position, (Target.position - EyePoint.position).normalized, out Info, ThisCollider.radius))
+
+		Debug.DrawLine(EyePoint.position, Target.position, Color.red);
+		Debug.DrawLine(EyePoint.position, Vector3.zero, Color.red);
+
+		if (Physics.Raycast(EyePoint.position, (Target.position - EyePoint.position).normalized, out Info, ThisCollider.radius))
 		{
 			//If player, then can see player
 			if(Info.transform.CompareTag("Player"))
@@ -74,11 +78,11 @@ public class LineSight : MonoBehaviour
 		switch(Sensitity)
 		{
 			case SightSensitivity.STRICT:
-				CanSeeTarget = InFOV() && ClearLineofSight();
+				CanSeeAgent = InFOV() && ClearLineofSight();
 			break;
 
 			case SightSensitivity.LOOSE:
-				CanSeeTarget = InFOV() || ClearLineofSight();
+				CanSeeAgent = InFOV() || ClearLineofSight();
 			break;
 		}
 	}
@@ -88,7 +92,7 @@ public class LineSight : MonoBehaviour
 		UpdateSight();
 
 		//Update last known sighting
-		if(CanSeeTarget)
+		if(CanSeeAgent)
 			LastKnowSighting =  Target.position;
 	}
 	//------------------------------------------
@@ -96,7 +100,7 @@ public class LineSight : MonoBehaviour
 	{
 		if(!Other.CompareTag("Player"))return;
 
-		CanSeeTarget = false;
+		CanSeeAgent = false;
 	}
 	//------------------------------------------
 }

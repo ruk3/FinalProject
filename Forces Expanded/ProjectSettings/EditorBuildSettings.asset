@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PursueAndEvade.unity
+    guid: 96b12a6e7b36c433f88f526e2c5f560f
   m_configObjects: {}
