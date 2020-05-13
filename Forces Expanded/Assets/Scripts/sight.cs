@@ -125,7 +125,7 @@ public class sight : MonoBehaviour
 
     private Vector3 Seek(Vector3 target)
     {
-        var maxSpeed = 7f;
+        var maxSpeed = 9f;
         var pos = transform.position;
         var T = 0.5f;
         var desiredDirection = (target - pos).normalized;

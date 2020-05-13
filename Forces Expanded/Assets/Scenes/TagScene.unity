@@ -196,7 +196,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 95182819}
-  mass: 0
+  mass: 1
   rb: {fileID: 95182820}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -349,7 +349,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 247038738}
-  mass: 0
+  mass: 1
   rb: {fileID: 247038739}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -593,7 +593,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 446161898}
-  mass: 0
+  mass: 1
   rb: {fileID: 446161899}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -746,7 +746,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 507650459}
-  mass: 0
+  mass: 1
   rb: {fileID: 507650460}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -899,7 +899,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 532963933}
-  mass: 0
+  mass: 1
   rb: {fileID: 532963934}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 1115282179}
-  mass: 0
+  mass: 1
   rb: {fileID: 1115282180}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -1931,7 +1931,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 1516245282}
-  mass: 0
+  mass: 1
   rb: {fileID: 1516245283}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -2175,7 +2175,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 1617237625}
-  mass: 0
+  mass: 1
   rb: {fileID: 1617237626}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -2328,7 +2328,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 1650207417}
-  mass: 0
+  mass: 1
   rb: {fileID: 1650207418}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -2481,7 +2481,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 1653478812}
-  mass: 0
+  mass: 1
   rb: {fileID: 1653478813}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
@@ -2778,7 +2778,7 @@ MonoBehaviour:
   Radius: 20
   cam: {fileID: 963194227}
   agent: {fileID: 1897593370}
-  mass: 0
+  mass: 1
   rb: {fileID: 1897593369}
   speed: 1
   found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
