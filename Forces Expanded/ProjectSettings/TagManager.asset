@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Seeker
   - runners
+  - walls
   layers:
   - Default
   - TransparentFX

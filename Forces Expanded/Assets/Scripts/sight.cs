@@ -51,7 +51,7 @@ public class sight : MonoBehaviour
     
     public static bool FOV(Transform player, string target, float angle, float radius)
     {
-        Collider[] overlaps = new Collider[10];
+        Collider[] overlaps = new Collider[50];
         int count = Physics.OverlapSphereNonAlloc(player.position, radius, overlaps);
 
         for(int i=0; i < count + 1; i++)
@@ -86,7 +86,7 @@ public class sight : MonoBehaviour
     }
     public static Vector3 Destination(Transform player, string target, float angle, float radius)
     {
-        Collider[] overlaps = new Collider[10];
+        Collider[] overlaps = new Collider[50];
         int count = Physics.OverlapSphereNonAlloc(player.position, radius, overlaps);
 
         for (int i = count+1; i > 0; i--)
