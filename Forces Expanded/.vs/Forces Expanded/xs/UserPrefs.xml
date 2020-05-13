@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{A3344A87-889E-AE81-4E20-278D02A645B1}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/sight.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/sightHideandSeek.cs">
     <Files>
-      <File FileName="Assets/Scripts/sight.cs" Line="310" Column="49" />
-      <File FileName="Assets/Scripts/sightHideandSeek.cs" />
+      <File FileName="Assets/Scripts/sight.cs" Line="284" Column="9" />
+      <File FileName="Assets/Scripts/sightHideandSeek.cs" Line="4" Column="35" />
       <File FileName="Assets/Scripts/PlayerController.cs" />
     </Files>
     <Pads>
@@ -11,7 +11,7 @@
           <Node name="Forces Expanded" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="sight.cs" selected="True" />
+                <Node name="sightHideandSeek.cs" selected="True" />
               </Node>
             </Node>
           </Node>

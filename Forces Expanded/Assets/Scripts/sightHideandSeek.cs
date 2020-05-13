@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.AI;
 public class sightHideandSeek : MonoBehaviour
 {
@@ -259,6 +260,10 @@ public class sightHideandSeek : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.LoadLevel("Menu");
+        }
         if (transform.tag == "Seeker")
         {
             tag = "runners";
@@ -282,7 +287,8 @@ public class sightHideandSeek : MonoBehaviour
             }
             if (isWalking == true)
             {
-                rb.AddForce(transform.forward * 300);
+                transform.position += transform.forward * Time.deltaTime * moveSpeed;
+                //rb.AddForce(transform.forward * 300);
 
             }
         }

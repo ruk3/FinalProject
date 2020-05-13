@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 public class sight : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -285,6 +286,10 @@ public class sight : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.LoadLevel("Menu");
+        }
         if (transform.tag == "Seeker")
         {
             tag = "runners";
@@ -307,7 +312,8 @@ public class sight : MonoBehaviour
             }
             if (isWalking == true)
             {
-                rb.AddForce(transform.forward*350);
+                transform.position += transform.forward * Time.deltaTime * moveSpeed;
+                //rb.AddForce(transform.forward*350); AddForce tends to overshoot and are not smooth causes bad rotations
 
             }
         }
