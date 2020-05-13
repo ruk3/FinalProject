@@ -168,7 +168,7 @@ public class sight : MonoBehaviour
         {
             int rotating = Random.Range(1, 3);
 
-            int walkTime = Random.Range(1, 7);
+            int walkTime = Random.Range(1, 4);
 
             isWandering = true;
 
@@ -182,7 +182,6 @@ public class sight : MonoBehaviour
                 yield return new WaitForSeconds(3);
                 isRotatingRight = false;
             }
-
             isWandering = false;
         }
         else
@@ -308,7 +307,7 @@ public class sight : MonoBehaviour
             }
             if (isWalking == true)
             {
-                transform.position+=transform.forward * Time.deltaTime * moveSpeed;
+                rb.AddForce(transform.forward*350);
 
             }
         }

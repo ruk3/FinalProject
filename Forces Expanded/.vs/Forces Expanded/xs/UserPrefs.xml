@@ -1,12 +1,17 @@
 ﻿<Properties StartupConfiguration="{A3344A87-889E-AE81-4E20-278D02A645B1}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/sight.cs">
+    <Files>
+      <File FileName="Assets/Scripts/sight.cs" Line="310" Column="49" />
+      <File FileName="Assets/Scripts/sightHideandSeek.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Forces Expanded" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="sightHideandSeek.cs" selected="True" />
+                <Node name="sight.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c6dbf75d-af38-4cf7-99f8-2ce6ea32c94b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9049cf35-1303-4cb3-9e5f-244eb650bac3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

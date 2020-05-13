@@ -166,7 +166,7 @@ public class sightHideandSeek : MonoBehaviour
         {
             int rotating = Random.Range(1, 3);
 
-            int walkTime = Random.Range(1, 7);
+            int walkTime = Random.Range(1, 4);
 
             isWandering = true;
 
@@ -211,7 +211,6 @@ public class sightHideandSeek : MonoBehaviour
                 rb.GetComponent<MeshRenderer>().material = found;
             }
         }
-
     }
 
     private void FixedUpdate()
@@ -283,7 +282,7 @@ public class sightHideandSeek : MonoBehaviour
             }
             if (isWalking == true)
             {
-                transform.position += transform.forward * Time.deltaTime * moveSpeed;
+                rb.AddForce(transform.forward * 300);
 
             }
         }
