@@ -21,7 +21,8 @@ public class sight : MonoBehaviour
     private bool isRotatingRight = false;
     private float rotSpeed = 150f;
     private float moveSpeed =10f;
-    public Material found;
+    //public Material found;
+    //public Material runner;
 
     private void OnDrawGizmos()
     {
@@ -202,16 +203,43 @@ public class sight : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        var found = Resources.Load("Materials/Tagged", typeof(Material)) as Material;
+        var runner = Resources.Load("Materials/Hider", typeof(Material)) as Material;
+
         if (transform.tag == "runners")
         {
             if (collision.gameObject.tag == "Seeker")
             {
                 transform.tag = "Seeker";
                 rb.GetComponent<MeshRenderer>().material = found;
+                //collision.gameObject.tag = "runners";
+                //collision.gameObject.GetComponent<MeshRenderer>().material = runner;
+            }
+        }
+        /*if (transform.tag == "Seeker")
+        {
+            if (collision.gameObject.tag == "runners")
+            {
+                transform.tag = "runners";
+                rb.GetComponent<MeshRenderer>().material = runner;
+            }
+        }
+        */
+    }
+    /*
+    private void OnCollisionExit(Collision collision)
+    {
+        
+        if (transform.tag == "Seeker")
+        {
+            if (collision.gameObject.tag == "Seeker")
+            {
+                transform.tag = "runners";
+                rb.GetComponent<MeshRenderer>().material = runner;
             }
         }
     }
-
+    */
     private void FixedUpdate()
     {
         if (transform.tag == "Seeker")

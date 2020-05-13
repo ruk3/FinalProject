@@ -21,7 +21,6 @@ public class sightHideandSeek : MonoBehaviour
     private bool isRotatingRight = false;
     private float rotSpeed = 100f;
     private float moveSpeed = 10f;
-    public Material found;
 
     private void OnDrawGizmos()
     {
@@ -202,6 +201,8 @@ public class sightHideandSeek : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        var found = Resources.Load("Materials/Tagged", typeof(Material)) as Material;
+
         if (transform.tag == "runners")
         {
             if (collision.gameObject.tag == "Seeker")

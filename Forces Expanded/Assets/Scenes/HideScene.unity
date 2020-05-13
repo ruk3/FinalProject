@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -161,7 +161,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 14336257}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &14336256
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -587,7 +586,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 187400211}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &187400210
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -740,7 +738,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 195516212}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &195516211
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1075,7 +1072,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 285345259}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &285345258
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1592,7 +1588,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 500120734}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &500120733
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2018,7 +2013,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 680663112}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &680663111
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2387,7 +2381,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 736233116}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &736233115
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2540,7 +2533,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 753214202}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &753214201
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2875,7 +2867,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 797375291}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &797375290
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3787,7 +3778,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 1155189325}
   speed: 1
-  found: {fileID: 0}
 --- !u!136 &1155189328
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3819,7 +3809,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
+  - {fileID: 2100000, guid: b253f4af320e0944384b7d301ec480a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4175,7 +4165,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 1326969885}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &1326969884
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4548,7 +4537,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 1476296118}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!136 &1476296120
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4820,7 +4808,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 1575971933}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &1575971932
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5064,7 +5051,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 1595429263}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &1595429262
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5308,7 +5294,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 1675525708}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &1675525707
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5552,7 +5537,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 1769128989}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &1769128988
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6160,7 +6144,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 1953384633}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &1953384632
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6404,7 +6387,6 @@ MonoBehaviour:
   mass: 1
   rb: {fileID: 2029011446}
   speed: 1
-  found: {fileID: 2100000, guid: e5708a7384cddbd4da87443a09acbedf, type: 2}
 --- !u!195 &2029011445
 NavMeshAgent:
   m_ObjectHideFlags: 0
