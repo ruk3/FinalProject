@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{A3344A87-889E-AE81-4E20-278D02A645B1}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/sight.cs">
     <Files>
-      <File FileName="Assets/Scripts/sight.cs" Line="101" Column="10" />
+      <File FileName="Assets/Scripts/HideandSeekAgent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/sight.cs" Line="253" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
